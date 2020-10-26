@@ -29,11 +29,13 @@ Invertir el orden del array (utilizar reverse).*/
 months.reverse();
 console.log(months);
 /* Part f:
-Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).*/
+Unir todos los elementos del array en un único string donde cada mes este 
+separado por un guión - (utilizar join).*/
 var f = months.join('-');
 console.log(f);
 /* Part g:
-Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
+Crear una copia del array de meses que contenga desde Mayo hasta Noviembre 
+(utilizar slice).*/
 var months = [
     "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", 
     "Septiembre", "Octubre", "Noviembre", "Diciembre"
