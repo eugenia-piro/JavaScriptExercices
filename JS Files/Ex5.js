@@ -14,10 +14,8 @@ for (var i=0; i < myArray.length; i++) {
 Al array anterior convertir la primera letra de cada palabra en mayúscula y 
 mostrar una alerta por cada palabra modificada.*/
 for (var i=0; i < myArray.length; i++) {
-    var a = myArray[i].substring(0,1);
-    var fruitLenght = myArray[i].length;
-    var b = myArray[i].substring(1,fruitLenght);
-    a = a.toUpperCase();
+    var a = myArray[i].substring(0,1).toUpperCase();
+    var b = myArray[i].substring(1,myArray[i].length);
     myArray[i] = a + b;
 }
 console.log(myArray);
@@ -28,7 +26,7 @@ de la variable sentence. Al final mostrar una única alerta con la cadena
 completa.*/
 var sentence = '';
 for (var i=0; i < myArray.length; i++) {
-    sentence = sentence + myArray[i];    
+    sentence += myArray[i];    
 }
 alert(sentence);
 /* Part d:

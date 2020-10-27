@@ -5,7 +5,7 @@ el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater
 than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.*/
 var a = Math.random();
 console.log(a);
-if (a>0.5) {
+if (a>=0.5) {
     alert('Greater than 0,5');
 } else {
     alert('Lower than 0,5');
@@ -20,7 +20,7 @@ los siguientes mensajes de alerta:
 “Adulto” entre 31 y 60 años
 “Adulto mayor” entre 61 y 75 años
 “Anciano” si es mayor a 75 años.*/
-var Age = 25;
+var Age = Math.floor(Math.random()*100);
 if (Age<2) {
     alert('Bebe');
 } else if (Age<13) {

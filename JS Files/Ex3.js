@@ -7,7 +7,7 @@ var months = [
     "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", 
     "Septiembre", "Octubre", "Noviembre", "Diciembre"
 ];
-console.log(months[5],months[11]);
+console.log(months[4],months[10]);
 /* Part b:
 Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar 
 sort).*/
@@ -36,7 +36,7 @@ console.log(f);
 /* Part g:
 Crear una copia del array de meses que contenga desde Mayo hasta Noviembre 
 (utilizar slice).*/
-var months = [
+months = [
     "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", 
     "Septiembre", "Octubre", "Noviembre", "Diciembre"
 ];
